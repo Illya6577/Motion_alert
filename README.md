@@ -8,13 +8,20 @@ UA:
 
 Для того щоб все запрацювало нам треба: 
 1)Все скласти. [Схема](https://www.tinkercad.com/things/iIEmKsP64vl-datchic-ruhu-na-arduino-uno-z-svetodiodom?sharecode=x4xLwb5E_Cl4F9E56GDcRlzIQP1rSj3n58jsqAGszZo) 
+
 2)Драйвери на Arduino (йдуть разом з Arduino IDE) 
+
 3)python3 
+
 4)Бібліотека: 
 pip install pyserial requests 
+
 5) Токен телеграм (створити можна в @BotFather) 
+
 6) ID користувача, якому буде надсилатись що було помічено рух (взнати можна в @username_to_id_bot) 
+
 7) Замінити у коді YOUR_BOT_TOKEN і YOUR_CHAT_ID на токен вашого бота і ID чату. 
+
 8) Запустити скрипт 
 
 Сподіваюсь, що все розписав детально, і зрозуміло
