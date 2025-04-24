@@ -38,8 +38,8 @@ def main():
                 current_time = time.time()
                 # Перевіряємо, чи минуло достатньо часу з моменту останнього повідомлення
                 if current_time - last_sent_time >= resend_interval:
-                    print("Помічено рух!")
-                    send_telegram("Помічено рух")
+                    print("Motion detected")
+                    send_telegram("Motion!")
                     last_sent_time = current_time
 
             # Коротка пауза, щоб уникнути надмірного навантаження
