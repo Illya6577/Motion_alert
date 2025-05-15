@@ -21,7 +21,7 @@ def main():
     # Відкриваємо послідовний порт COM10 (скоригуйте baudrate за потреби)
     try:
         ser = serial.Serial('COM10', baudrate=9600, timeout=1)
-        print("Моніторинг COM10 запущено...")
+        print("Моніторинг запущено...")
     except serial.SerialException as e:
         print(f"Не вдалося відкрити COM10: {e}")
         return
